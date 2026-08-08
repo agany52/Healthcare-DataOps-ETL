@@ -174,6 +174,7 @@ Then execute:
 
 ```sql
 EXEC dbo.usp_RunHealthcareETL;
+```
 
 To view example outputs and audit results, run:
 
