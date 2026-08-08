@@ -156,22 +156,23 @@ Healthcare-DataOps-ETL/
 
 For a visual overview of the pipeline, see [docs/architecture.md](docs/architecture.md).
 
-How to Run the Project
+## How to Run the Project
 
 Run the SQL scripts in numerical order:
 
-01_create_database_and_schemas.sql
-02_create_tables.sql
-03_create_raw_tables.sql
-04_seed_sample_data.sql
-05_validation_procedures.sql
-06_staging_procedures.sql
-07_production_procedure.sql
-08_reconciliation.sql
-09_master_etl.sql
+1. `01_create_database_and_schemas.sql`
+2. `02_create_tables.sql`
+3. `03_create_raw_tables.sql`
+4. `04_seed_sample_data.sql`
+5. `05_validation_procedures.sql`
+6. `06_staging_procedures.sql`
+7. `07_production_procedure.sql`
+8. `08_reconciliation.sql`
+9. `09_master_etl.sql`
 
 Then execute:
 
+```sql
 EXEC dbo.usp_RunHealthcareETL;
 
 To view example outputs and audit results, run:
