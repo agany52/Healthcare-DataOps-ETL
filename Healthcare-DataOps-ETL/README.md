@@ -176,7 +176,8 @@ Then execute:
 EXEC dbo.usp_RunHealthcareETL;
 ```
 
-To view example outputs and audit results, run "10_demo_queries.sql"
+To view example outputs and audit results, run:
+`10_demo_queries.sql`
 
 ## Sample Results
 
