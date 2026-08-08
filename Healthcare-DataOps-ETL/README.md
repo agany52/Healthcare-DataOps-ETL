@@ -151,7 +151,8 @@ Healthcare-DataOps-ETL/
 ├── screenshots/
 ├── docs/
 ├── sample_data/
-└── README.md```
+└── README.md
+```
 
 For a visual overview of the pipeline, see [docs/architecture.md](docs/architecture.md).
 
