@@ -211,7 +211,7 @@ The sample dataset intentionally includes invalid and duplicate records to demon
 ![Production Encounter Data](screenshots/production_encounters.png)
 
 
-Purpose
+## Purpose
 
 This project was built to demonstrate practical SQL Server and ETL skills in a healthcare data operations scenario.
 
