@@ -176,18 +176,17 @@ Then execute:
 EXEC dbo.usp_RunHealthcareETL;
 ```
 
-To view example outputs and audit results, run:
+To view example outputs and audit results, run "10_demo_queries.sql"
 
-10_demo_queries.sql
-
-Sample Results
+## Sample Results
 
 Using the included synthetic dataset:
 
-Client	Raw Rows	Production Rows	Rejected Rows	Status
-Madison General Hospital	8	5	3	PASS
-Lakeshore Medical Center	6	4	2	PASS
-Prairie Valley Health	   10	5	5	PASS
+| Client | Raw Rows | Production Rows | Rejected Rows | Status |
+|---|---:|---:|---:|---|
+| Madison General Hospital | 8 | 5 | 3 | PASS |
+| Lakeshore Medical Center | 6 | 4 | 2 | PASS |
+| Prairie Valley Health | 10 | 5 | 5 | PASS |
 
 The sample dataset intentionally includes invalid and duplicate records to demonstrate validation, rejection logging, transformation, duplicate handling, and reconciliation.
 
